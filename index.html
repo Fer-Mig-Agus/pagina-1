@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Pagina 1/css/styles.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Pagina-1/css/styles.css">
     <title>Pagina 1 MF Diseños</title>
 </head>
+
 <body>
-    <div id="contenido">
+    <div class="container">
+
         <!--Inicio de la cabecera-->
-        <header id="header">
-            <div id="logo">
+        <div class="row" id="cabecera">
+
+            <header id="logo">
                 <a href="index.html">
-                    <img src="../Pagina 1/img/logo-web-developer-emily-ridge.png" alt="Logo">
+                    <img src="../Pagina-1/img/logo-web-developer-emily-ridge.png" alt="Logo" title="Ir a inicio">
                 </a>
-            </div>
-            <div id="menu">
-            <nav >
+            </header>
+
+            <nav id="menu">
                 <ul>
                     <li>
                         <a href="#">Casa</a>
@@ -29,7 +34,7 @@
                         <a href="#">Servicios</a>
                     </li>
                     <li>
-                        <a href="#">Acerda de</a>
+                        <a href="#">Acerca de</a>
                     </li>
                     <li>
                         <a href="#">Recursos</a>
@@ -38,14 +43,75 @@
                         <a href="#">Tutoriales</a>
                     </li>
                     <li>
-                        <a href="#">Constacto</a>
+                        <a href="#">Contacto</a>
                     </li>
                 </ul>
             </nav>
-            </div>
-        </header>
+
+        </div>
+        <div class="clearfix"></div>
         <!--Fin de la cabecera-->
+
+        <!--Inicio Contenido-->
+        <div id="contenido">
+            <h3>Diseñador y desarrollador web independiente con sede en Galway, Irlanda. <br>
+                Altamente experimentado en el diseño y desarrollo de sitios web personalizados en Wordpress.</h3>
+        </div>
+
+        <div id="tarjeta-principal">
+            <img src="../Pagina-1/img/tablet.png" alt="" id="tablet" title="tablet">
+            <img src="../Pagina-1/img/notebook.png" id="note" title="notebook">
+            <img src="../Pagina-1/img/telefono.png" id="cel" title="telefono">
+            <h3>Sitios web de Wordpress CMS totalmente receptivos y diseñados a medida</h3>
+            <a href="#" class="btn ">Ver cartera</a>
+
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="row" id="cards">
+            <div class="card ">
+                <img src="../Pagina-1/img/pincel-lapiz.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../Pagina-1/img/www.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="../Pagina-1/img/camara.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--Fin Contenido-->
     </div>
-    
+
+
+
+    <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
