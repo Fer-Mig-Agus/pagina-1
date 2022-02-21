@@ -57,6 +57,7 @@
 #menu ul li a:hover{
     color: #06BC9B;
     border-bottom: 1px solid #06BC9B;
+    height: 42.5px;
     font-size: 17px;
     cursor: pointer;
     margin-bottom: 15px;
@@ -130,7 +131,23 @@
     background: #12AE9C;
     color: white;
     margin-top: -35px;
+    text-align: initial;
 
+}
+
+#tarjeta-principal a:hover{
+    color: #12AE9C;
+    background: #2A3B4E;
+}
+
+
+#tarjeta-principal a img{
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: 195px;
+    margin-top: -28px;
 }
 
 
@@ -185,26 +202,112 @@
     background: #12AE9C;
     color: white;
     text-align: initial;
-    width: 50%;
-}
-
-.card-body img{
-    display: block;
+    width: 75%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 38px;
     float: right;
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    margin-left: 120px;
-    margin-top: -28px;
+    margin-right: -17px;
+    margin-top: 17px;
 }
 
-
-
-#footer{
+.card-body a:hover{
+    color: #12AE9C;
     background: #2A3B4E;
-
 }
 
+
+
+
+.card-body a img{
+    display: block;
+    
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: -35px;
+}
+
+
+.card-2 a{
+    margin-top: 44px;
+}
+
+.card-3 a{
+    margin-top: -7px;
+}
 
 /*Fin del Contenido*/
 
+/*Inicio de footer*/
+
+#footer{
+    background: #2A3B4E;
+    width: 100%;
+    height: 215px;
+    margin-top: 20px;
+    
+
+}
+
+#footer:hover{
+    background: #33485F;
+}
+
+#footer a img{
+    width: 4%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    
+
+}
+
+#footer a .google-mas{
+    width: 6.5%;
+    height: auto;
+    margin-top: 25px;
+}
+
+#footer a:first-child img{
+    margin-left: 40.5%;
+    margin-right: 10px;
+}
+
+
+#footer #contenido-menu{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+#footer #politicas{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -15px;
+}
+
+#footer #copy{
+    color: #868D95;
+    text-align: center;
+    font-size: 12.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -10px;
+}
+
+#footer #flecha-inferior{
+    display: block;
+    height: 75px;
+    width: 100px;
+    margin-left: 45%;
+    margin-top: 12px;
+}
+
+
+/*Fin de footer*/
